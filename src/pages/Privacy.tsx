@@ -10,6 +10,8 @@ const tocItems = [
   { id: "legal-bases", title: "Legal Bases for Processing" },
   { id: "sharing", title: "When and With Whom Do We Share Data?" },
   { id: "third-party", title: "Third-Party Websites" },
+  { id: "apple-app-store", title: "Apple App Store and In-App Purchases" },
+  { id: "apple-health", title: "Apple Health Data" },
   { id: "international", title: "International Transfers" },
   { id: "retention", title: "Data Retention" },
   { id: "security", title: "Data Security" },
@@ -110,6 +112,25 @@ const Privacy = () => {
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground space-y-4">
                       <p>The App may link to third-party websites or services. We are not responsible for their privacy practices, and users should review their policies.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="apple-app-store" id="apple-app-store" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Apple App Store and In-App Purchases
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>When you download our app through the Apple App Store or make in-app purchases, Apple may collect certain information about you and your transactions. This information is subject to Apple's Privacy Policy, which is separate from our Privacy Policy. We encourage you to review Apple's Privacy Policy to understand how Apple handles your information.</p>
+                      <p>We do not store or have access to your payment information, as all in-app purchases are processed by Apple through your Apple ID account. Apple handles all payment processing and billing in accordance with their terms and privacy policy.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="apple-health" id="apple-health" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Apple Health Data
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>If you choose to integrate with Apple Health, we may access health data you explicitly authorize. This data is used solely for app functionality and is not shared with third parties. You can revoke this access at any time through your device settings.</p>
                     </AccordionContent>
                   </AccordionItem>
 

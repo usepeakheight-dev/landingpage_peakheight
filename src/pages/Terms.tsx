@@ -11,6 +11,11 @@ const tocItems = [
   { id: "contributions", title: "User-Generated Contributions" },
   { id: "license", title: "Contribution License" },
   { id: "mobile", title: "Mobile Application License" },
+  { id: "apple-app-store-terms", title: "Apple App Store Terms" },
+  { id: "apple-role", title: "Apple's Role and Limitations" },
+  { id: "third-party-beneficiary", title: "Third-Party Beneficiary" },
+  { id: "warranty-disclaimer", title: "Warranty Disclaimer" },
+  { id: "limitation-liability", title: "Limitation of Liability" },
   { id: "third-party", title: "Third-Party Websites & Content" },
   { id: "advertisers", title: "Advertisers" },
   { id: "management", title: "App Management" },
@@ -23,7 +28,7 @@ const tocItems = [
   { id: "purchases", title: "Purchases & Payment" },
   { id: "cancellation", title: "Cancellation Policy" },
   { id: "reviews", title: "Guidelines for Reviews" },
-  { id: "liability", title: "Limitation of Liability" },
+  { id: "original-liability", title: "Limitation of Liability & Disclaimer of Warranties" },
   { id: "disclaimer", title: "Disclaimer" },
 ];
 
@@ -132,6 +137,57 @@ const Terms = () => {
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground space-y-4">
                       <p>We grant you a limited, non-transferable license to install and use the App on devices you own or control. You must not: reverse engineer or modify the App, use the App for unauthorized commercial purposes, or share the App in ways that bypass intended restrictions. For Apple iOS users, these Terms incorporate Apple App Store rules. Apple is not responsible for maintenance, support, or warranty claims.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="apple-app-store-terms" id="apple-app-store-terms" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Apple App Store Terms
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>This app is licensed, not sold, to you. Your license to use the app is subject to your prior acceptance of this License Agreement and the Apple App Store Terms of Service. Apple reserves all rights not expressly granted to you.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="apple-role" id="apple-role" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Apple's Role and Limitations
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>Apple is not responsible for addressing any claims you or any third party may have relating to the app or your possession and use of the app, including but not limited to:</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li>Product liability claims</li>
+                        <li>Any claim that the app fails to conform to any applicable legal or regulatory requirement</li>
+                        <li>Claims arising under consumer protection or similar legislation</li>
+                        <li>Maintenance and support services for the app</li>
+                      </ul>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="third-party-beneficiary" id="third-party-beneficiary" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Third-Party Beneficiary
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>Apple and Apple's subsidiaries are third-party beneficiaries of this License Agreement. Upon your acceptance of the terms and conditions of this License Agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this License Agreement against you as a third-party beneficiary thereof.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="warranty-disclaimer" id="warranty-disclaimer" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Warranty Disclaimer
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>You expressly acknowledge and agree that use of the app is at your sole risk and that the entire risk as to satisfactory quality, performance, accuracy and effort is with you. To the maximum extent permitted by applicable law, the app and any services performed or provided by the app are provided "as is" and "as available", with all faults and without warranty of any kind.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="limitation-liability" id="limitation-liability" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Limitation of Liability
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>To the extent not prohibited by law, in no event shall Apple be liable for personal injury, or any incidental, special, indirect or consequential damages whatsoever, including, without limitation, damages for loss of profits, loss of data, business interruption or any other commercial damages or losses, arising out of or related to your use or inability to use the app.</p>
                     </AccordionContent>
                   </AccordionItem>
 
@@ -249,7 +305,7 @@ const Terms = () => {
                     </AccordionContent>
                   </AccordionItem>
 
-                  <AccordionItem value="liability" id="liability" className="border border-border rounded-lg px-6 bg-card">
+                  <AccordionItem value="original-liability" id="original-liability" className="border border-border rounded-lg px-6 bg-card">
                     <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
                       Limitation of Liability & Disclaimer of Warranties
                     </AccordionTrigger>

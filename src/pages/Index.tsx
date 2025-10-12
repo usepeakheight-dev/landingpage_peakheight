@@ -2,7 +2,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Mountain, Shield, FileText } from "lucide-react";
+import { Shield, FileText } from "lucide-react";
+import logo from "@/assets/peakheight-logo.png";
 
 const Index = () => {
   return (
@@ -15,8 +16,8 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-primary/5 to-background" />
           <div className="container px-4 md:px-6 relative">
             <div className="mx-auto max-w-3xl text-center animate-fade-in">
-              <div className="mb-6 inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10">
-                <Mountain className="w-10 h-10 text-primary" />
+              <div className="mb-6 inline-flex items-center justify-center w-24 h-24 rounded-full bg-primary/10">
+                <img src={logo} alt="PeakHeight" className="w-16 h-16" />
               </div>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight font-playfair mb-6">
                 PeakHeight
