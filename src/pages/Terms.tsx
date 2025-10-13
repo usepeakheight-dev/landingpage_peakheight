@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const tocItems = [
   { id: "agreement", title: "Agreement to Terms" },
+  { id: "subscription", title: "Subscription Terms" },
   { id: "intellectual", title: "Intellectual Property Rights" },
   { id: "representations", title: "User Representations" },
   { id: "prohibited", title: "Prohibited Activities" },
@@ -70,6 +71,29 @@ const Terms = () => {
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground space-y-4">
                       <p>These Terms of Service ("Terms") are a legally binding agreement between you and Roman Co Ltd., a company incorporated under the laws of Canada and registered in Alberta, doing business as Peak Height ("Peak Height," "we," "us," or "our"), governing your access to and use of the Peak Height mobile application and any related websites, services, and features (collectively, the "App"). By downloading, installing, accessing, or using the App, you acknowledge that you have read, understand, and agree to be bound by these Terms. If you do not agree, do not access or use the App.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="subscription" id="subscription" className="border border-border rounded-lg px-6 bg-card">
+                    <AccordionTrigger className="text-xl font-playfair hover:no-underline hover:text-primary">
+                      Subscription Terms
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground space-y-4">
+                      <p>PeakHeight offers the following subscription options:</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li><strong className="text-foreground">PeakHeight Premium Weekly:</strong> $4.99/week (1 week subscription)</li>
+                        <li><strong className="text-foreground">PeakHeight Premium Yearly:</strong> $29.99/year (1 year subscription)</li>
+                      </ul>
+                      <div className="bg-muted/30 rounded-lg p-4 space-y-2 mt-4">
+                        <p><strong className="text-foreground">Auto-Renewal Terms:</strong></p>
+                        <ul className="list-disc pl-6 space-y-2">
+                          <li>Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period</li>
+                          <li>Payment will be charged to your iTunes Account at confirmation of purchase</li>
+                          <li>Subscriptions may be managed by the user and auto-renewal may be turned off by going to Account Settings after purchase</li>
+                          <li>No cancellation of the current subscription is allowed during active subscription period</li>
+                          <li>Any unused portion of a free trial period, if offered, will be forfeited when you purchase a subscription</li>
+                        </ul>
+                      </div>
                     </AccordionContent>
                   </AccordionItem>
 
