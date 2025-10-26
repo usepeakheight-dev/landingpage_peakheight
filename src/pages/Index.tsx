@@ -31,10 +31,6 @@ const Index = () => {
                   </a>
                 </Button>
               </div>
-              <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-                <Users className="w-4 h-4" />
-                Join 10,000+ users growing taller every day
-              </p>
             </div>
           </div>
         </section>
