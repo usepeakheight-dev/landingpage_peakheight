@@ -24,12 +24,9 @@ const Index = () => {
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
                 Science-backed daily routines, expert nutrition guidance, and proven exercises to maximize your growth - all in one beautiful app
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <div className="flex justify-center mb-8">
                 <Button size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
                   Start Growing Today
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg h-14 px-8 border-2">
-                  Watch Demo
                 </Button>
               </div>
               <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
