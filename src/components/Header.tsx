@@ -10,8 +10,10 @@ export const Header = () => {
           <img src={logo} alt="PeakHeight" className="h-8 w-8" />
           <span className="text-xl font-bold font-playfair">PeakHeight</span>
         </Link>
-        <Button size="sm" className="bg-foreground text-background hover:bg-foreground/90">
-          Download App
+        <Button asChild size="sm" className="bg-foreground text-background hover:bg-foreground/90">
+          <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+            Download App
+          </a>
         </Button>
       </div>
     </header>

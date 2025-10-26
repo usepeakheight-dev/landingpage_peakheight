@@ -25,8 +25,10 @@ const Index = () => {
                 Science-backed daily routines, expert nutrition guidance, and proven exercises to maximize your growth - all in one beautiful app
               </p>
               <div className="flex justify-center mb-8">
-                <Button size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
-                  Start Growing Today
+                <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
+                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+                    Start Growing Today
+                  </a>
                 </Button>
               </div>
               <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
@@ -279,8 +281,10 @@ const Index = () => {
                     <span>Progress tracking</span>
                   </li>
                 </ul>
-                <Button className="w-full h-12 text-lg" variant="outline">
-                  Start Free Trial
+                <Button asChild className="w-full h-12 text-lg" variant="outline">
+                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+                    Start Free Trial
+                  </a>
                 </Button>
                 <p className="text-sm text-muted-foreground text-center mt-4">7-day free trial included</p>
               </div>
@@ -317,8 +321,10 @@ const Index = () => {
                     <span><strong>Priority support</strong></span>
                   </li>
                 </ul>
-                <Button className="w-full h-12 text-lg bg-foreground text-background hover:bg-foreground/90">
-                  Start Free Trial
+                <Button asChild className="w-full h-12 text-lg bg-foreground text-background hover:bg-foreground/90">
+                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+                    Start Free Trial
+                  </a>
                 </Button>
                 <p className="text-sm text-muted-foreground text-center mt-4">7-day free trial • 30-day money-back guarantee</p>
               </div>
@@ -400,9 +406,11 @@ const Index = () => {
                 Join thousands growing taller with PeakHeight
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <Button size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
-                  <Smartphone className="mr-2" />
-                  Download PeakHeight Now
+                <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
+                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+                    <Smartphone className="mr-2" />
+                    Download PeakHeight Now
+                  </a>
                 </Button>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
