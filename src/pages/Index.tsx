@@ -24,12 +24,15 @@ const Index = () => {
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
                 Science-backed daily routines, expert nutrition guidance, and proven exercises to maximize your growth - all in one beautiful app
               </p>
-              <div className="flex justify-center mb-8">
+              <div className="flex flex-col items-center gap-3 mb-8">
                 <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
                   <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
                     Start Growing Today
                   </a>
                 </Button>
+                <p className="text-sm text-muted-foreground/80 text-center max-w-xs">
+                  📱 Coming from TikTok? Hold the button and select "Open in Browser"
+                </p>
               </div>
             </div>
           </div>
