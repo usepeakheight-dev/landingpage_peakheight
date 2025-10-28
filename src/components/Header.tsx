@@ -10,11 +10,16 @@ export const Header = () => {
           <img src={logo} alt="PeakHeight" className="h-8 w-8" />
           <span className="text-xl font-bold font-playfair">PeakHeight</span>
         </Link>
-        <Button asChild size="sm" className="bg-foreground text-background hover:bg-foreground/90">
-          <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-            Download App
-          </a>
-        </Button>
+        <div className="flex flex-col items-end gap-1">
+          <Button asChild size="sm" className="bg-foreground text-background hover:bg-foreground/90">
+            <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+              Download App
+            </a>
+          </Button>
+          <p className="text-xs text-muted-foreground/70 hidden sm:block">
+            TikTok? Hold ↑ & open in browser
+          </p>
+        </div>
       </div>
     </header>
   );
