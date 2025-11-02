@@ -10,10 +10,10 @@ export const Header = () => {
           <img src={logo} alt="PeakHeight" className="h-8 w-8" />
           <span className="text-xl font-bold font-playfair">PeakHeight</span>
         </Link>
-        <div className="flex flex-col items-end gap-2">
-          <div className="bg-primary/10 border border-primary/20 rounded-lg px-3 py-2 text-center">
-            <p className="text-xs font-bold text-primary mb-0.5">📱 TikTok Users</p>
-            <p className="text-[11px] text-foreground font-medium">Hold button ↓ then "Open in Browser"</p>
+        <div className="flex flex-col items-end gap-1.5">
+          <div className="bg-primary/10 border border-primary/20 rounded-md px-2.5 py-1.5 text-center">
+            <p className="text-[10px] font-bold text-primary leading-tight">📱 TikTok Users</p>
+            <p className="text-[9px] text-foreground font-medium leading-tight">Hold button ↓ then "Open in Browser"</p>
           </div>
           <Button asChild size="sm" className="bg-foreground text-background hover:bg-foreground/90">
             <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
