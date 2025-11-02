@@ -10,7 +10,7 @@ export const Header = () => {
           <img src={logo} alt="PeakHeight" className="h-8 w-8" />
           <span className="text-xl font-bold font-playfair">PeakHeight</span>
         </Link>
-        <div className="flex flex-col items-end gap-1.5 mt-0.5">
+        <div className="flex flex-col items-end gap-1.5">
           <div className="bg-primary/10 border border-primary/20 rounded-md px-2.5 py-1.5 text-center">
             <p className="text-[10px] font-bold text-primary leading-tight">📱 TikTok Users</p>
             <p className="text-[9px] text-foreground font-medium leading-tight">Hold button ↓ then "Open in Browser"</p>
