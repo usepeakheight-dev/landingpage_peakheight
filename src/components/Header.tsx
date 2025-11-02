@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import logo from "@/assets/peakheight-logo.png";
 
 export const Header = () => {
@@ -10,16 +16,21 @@ export const Header = () => {
           <img src={logo} alt="PeakHeight" className="h-8 w-8" />
           <span className="text-xl font-bold font-playfair">PeakHeight</span>
         </Link>
-        <div className="flex flex-col items-end gap-1">
-          <Button asChild size="sm" className="bg-foreground text-background hover:bg-foreground/90">
-            <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-              Download App
-            </a>
-          </Button>
-          <p className="text-xs text-muted-foreground/70 hidden sm:block">
-            TikTok? Hold ↑ & open in browser
-          </p>
-        </div>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button asChild size="sm" className="bg-foreground text-background hover:bg-foreground/90">
+                <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+                  Download App
+                </a>
+              </Button>
+            </TooltipTrigger>
+            <TooltipContent side="bottom" className="text-center">
+              <p className="font-medium">📱 TikTok Users</p>
+              <p className="text-xs">Hold button ↓ & open in browser</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
       </div>
     </header>
   );
