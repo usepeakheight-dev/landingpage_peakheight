@@ -12,11 +12,11 @@ const Index = () => {
       <Header />
       
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative py-20 md:py-32 overflow-hidden border-b border-border">
-          <div className="absolute inset-0 bg-gradient-to-b from-muted/20 to-background" />
+        {/* Hero Section with App Screenshots */}
+        <section className="relative py-20 md:py-32 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent blur-3xl" />
           <div className="container px-4 md:px-6 relative z-10">
-            <div className="mx-auto max-w-4xl text-center animate-fade-in">
+            <div className="mx-auto max-w-4xl text-center animate-fade-in mb-16">
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight font-playfair mb-6 bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent leading-tight pb-2">
                 Reach your Peak Height
               </h1>
@@ -34,13 +34,7 @@ const Index = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </section>
 
-        {/* App Screenshots Section */}
-        <section className="relative py-20 md:py-32 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent blur-3xl" />
-          <div className="container px-4 md:px-6 relative z-10">
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 items-center justify-items-center">
                 <div className="transform md:rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300 hover:scale-105">
