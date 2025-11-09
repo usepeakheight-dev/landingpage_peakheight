@@ -14,7 +14,7 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-muted/20 to-background" />
           <div className="container px-4 md:px-6 relative z-10">
             <div className="mx-auto max-w-4xl text-center animate-fade-in">
-              <h1 className="text-5xl md:text-7xl font-bold tracking-tight font-playfair mb-6 bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent">
+              <h1 className="text-5xl md:text-7xl font-bold tracking-tight font-playfair mb-6 bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent leading-tight pb-2">
                 Reach your Peak Height
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
@@ -291,7 +291,7 @@ const Index = () => {
 
                 <details className="group p-6 rounded-xl border border-border bg-card">
                   <summary className="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
-                    What makes PeakHeight different?
+                    What makes Peak Height different?
                     <span className="group-open:rotate-180 transition-transform">▼</span>
                   </summary>
                   <p className="mt-4 text-muted-foreground leading-relaxed">
