@@ -2,7 +2,6 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Zap, Target, Camera, Users, CheckCircle2, Smartphone, TrendingUp, Award, Star } from "lucide-react";
-import logo from "@/assets/peakheight-logo.png";
 
 const Index = () => {
   return (
@@ -15,19 +14,16 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-muted/20 to-background" />
           <div className="container px-4 md:px-6 relative z-10">
             <div className="mx-auto max-w-4xl text-center animate-fade-in">
-              <div className="mb-8 inline-flex items-center justify-center w-24 h-24 rounded-full bg-primary/10 ring-1 ring-primary/20">
-                <img src={logo} alt="PeakHeight" className="w-16 h-16" />
-              </div>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight font-playfair mb-6 bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent">
-                Unlock Your Height Potential - Grow Taller Naturally
+                Reach your Peak Height
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
-                Science-backed daily routines, expert nutrition guidance, and proven exercises to maximize your growth - all in one beautiful app
+                Height isn't just inherited, it's earned
               </p>
               <div className="flex flex-col items-center gap-3 mb-8">
                 <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
                   <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-                    Start Growing Today
+                    Download Peak Height
                   </a>
                 </Button>
                 <p className="text-sm text-muted-foreground/80 text-center max-w-xs">
@@ -243,93 +239,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Pricing Section */}
-        <section className="py-20 md:py-32 border-b border-border">
-          <div className="container px-4 md:px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold font-playfair mb-4">
-                Start Your Growth Journey
-              </h2>
-              <p className="text-xl text-muted-foreground">
-                Choose the plan that works for you
-              </p>
-            </div>
-            
-            <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
-              <div className="p-8 rounded-2xl border-2 border-border bg-card">
-                <h3 className="text-2xl font-bold font-playfair mb-2">Weekly Premium</h3>
-                <div className="mb-6">
-                  <span className="text-5xl font-bold">$4.99</span>
-                  <span className="text-muted-foreground">/week</span>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>All premium exercises</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>AI nutrition tracking</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>Community access</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>Progress tracking</span>
-                  </li>
-                </ul>
-                <Button asChild className="w-full h-12 text-lg" variant="outline">
-                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-                    Start Free Trial
-                  </a>
-                </Button>
-                <p className="text-sm text-muted-foreground text-center mt-4">7-day free trial included</p>
-              </div>
-
-              <div className="p-8 rounded-2xl border-2 border-foreground bg-foreground/5 relative overflow-hidden">
-                <div className="absolute top-4 right-4 bg-foreground text-background px-3 py-1 rounded-full text-sm font-semibold">
-                  Save 60%
-                </div>
-                <h3 className="text-2xl font-bold font-playfair mb-2">Annual Premium</h3>
-                <div className="mb-6">
-                  <span className="text-5xl font-bold">$29.99</span>
-                  <span className="text-muted-foreground">/year</span>
-                  <p className="text-sm text-muted-foreground mt-1">Just $2.50/month</p>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>All premium exercises</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>AI nutrition tracking</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>Community access</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span>Progress tracking</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 flex-shrink-0" />
-                    <span><strong>Priority support</strong></span>
-                  </li>
-                </ul>
-                <Button asChild className="w-full h-12 text-lg bg-foreground text-background hover:bg-foreground/90">
-                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-                    Start Free Trial
-                  </a>
-                </Button>
-                <p className="text-sm text-muted-foreground text-center mt-4">7-day free trial • 30-day money-back guarantee</p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* FAQ Section */}
         <section className="py-20 md:py-32 border-b border-border bg-muted/20">
@@ -394,38 +303,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Final CTA */}
-        <section className="py-20 md:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl md:text-6xl font-bold font-playfair mb-6">
-                Ready to Reach New Heights?
-              </h2>
-              <p className="text-xl text-muted-foreground mb-12">
-                Join thousands growing taller with PeakHeight
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
-                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-                    <Smartphone className="mr-2" />
-                    Download PeakHeight Now
-                  </a>
-                </Button>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <div className="px-6 py-3 rounded-lg border border-border bg-card">
-                  <p className="text-sm font-semibold">7-Day Free Trial</p>
-                </div>
-                <div className="px-6 py-3 rounded-lg border border-border bg-card">
-                  <p className="text-sm font-semibold">No Credit Card Required</p>
-                </div>
-                <div className="px-6 py-3 rounded-lg border border-border bg-card">
-                  <p className="text-sm font-semibold">Cancel Anytime</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       <Footer />
