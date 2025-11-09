@@ -2,6 +2,9 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Zap, Target, Camera, Users, CheckCircle2, Smartphone, TrendingUp, Award, Star } from "lucide-react";
+import appTodayScreen from "@/assets/app-today-screen.png";
+import appHubScreen from "@/assets/app-hub-screen.png";
+import appProgressScreen from "@/assets/app-progress-screen.png";
 
 const Index = () => {
   return (
@@ -29,6 +32,38 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground/80 text-center max-w-xs">
                   📱 Coming from TikTok? Hold the button ↑ and select "Open in Browser"
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* App Screenshots Section */}
+        <section className="relative py-20 md:py-32 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent blur-3xl" />
+          <div className="container px-4 md:px-6 relative z-10">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid md:grid-cols-3 gap-8 items-center justify-items-center">
+                <div className="transform md:rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300 hover:scale-105">
+                  <img 
+                    src={appTodayScreen} 
+                    alt="Peak Height Today Screen - Track daily streaks and growth tasks"
+                    className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
+                  />
+                </div>
+                <div className="transform md:scale-110 hover:scale-115 transition-transform duration-300 z-10">
+                  <img 
+                    src={appHubScreen} 
+                    alt="Peak Height Hub - Browse exercises by skill level and body area"
+                    className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
+                  />
+                </div>
+                <div className="transform md:rotate-[8deg] hover:rotate-[4deg] transition-transform duration-300 hover:scale-105">
+                  <img 
+                    src={appProgressScreen} 
+                    alt="Peak Height Progress - Monitor growth factors and height journey"
+                    className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
+                  />
+                </div>
               </div>
             </div>
           </div>
