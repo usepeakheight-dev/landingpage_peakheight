@@ -13,49 +13,49 @@ const Index = () => {
       
       <main className="flex-1">
         {/* Hero Section with App Screenshots */}
-        <section className="relative py-12 md:py-32 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
+        <section className="relative py-20 md:py-32 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent blur-3xl" />
           <div className="container px-4 md:px-6 relative z-10">
-            <div className="mx-auto max-w-4xl text-center animate-fade-in mb-8 md:mb-16">
-              <h1 className="text-4xl md:text-7xl font-bold tracking-tight font-playfair mb-4 md:mb-6 bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent leading-tight pb-2">
-                Predict & Maximize<br className="md:hidden" /> your Height with Taller
+            <div className="mx-auto max-w-4xl text-center animate-fade-in mb-16">
+              <h1 className="text-5xl md:text-7xl font-bold tracking-tight font-playfair mb-6 bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent leading-tight pb-2">
+                Reach your Peak Height
               </h1>
-              <p className="text-base md:text-2xl text-muted-foreground mb-6 md:mb-8 leading-relaxed max-w-3xl mx-auto">
-                You can't control genetics, but you can optimize growth. 500,000+ men agree.
+              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
+                Height isn't just inherited, it's earned
               </p>
-              <div className="flex flex-col items-center gap-3 mb-6 md:mb-8">
-                <Button asChild size="lg" className="text-base md:text-lg h-12 md:h-14 px-6 md:px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg rounded-full">
+              <div className="flex flex-col items-center gap-3 mb-8">
+                <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
                   <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-                    Download Taller
+                    Download Peak Height
                   </a>
                 </Button>
-                <p className="text-xs md:text-sm text-muted-foreground/80 text-center max-w-xs">
+                <p className="text-sm text-muted-foreground/80 text-center max-w-xs">
                   📱 Coming from TikTok? Hold the button ↑ and select "Open in Browser"
                 </p>
               </div>
             </div>
 
             <div className="max-w-6xl mx-auto">
-              <div className="relative flex items-end justify-center gap-4 md:gap-8 md:grid md:grid-cols-3 md:items-center">
-                <div className="transform scale-75 md:scale-100 -rotate-[12deg] md:rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300 hover:scale-105 -mr-8 md:mr-0">
+              <div className="grid md:grid-cols-3 gap-8 items-center justify-items-center">
+                <div className="transform md:rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300 hover:scale-105">
                   <img 
                     src={appTodayScreen} 
                     alt="Peak Height Today Screen - Track daily streaks and growth tasks"
-                    className="rounded-[2rem] md:rounded-[2.5rem] shadow-2xl w-full max-w-[200px] md:max-w-[280px] border-4 md:border-8 border-foreground/10"
+                    className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
                   />
                 </div>
-                <div className="transform scale-90 md:scale-110 hover:scale-115 transition-transform duration-300 z-10 -mb-4 md:mb-0">
+                <div className="transform md:scale-110 hover:scale-115 transition-transform duration-300 z-10">
                   <img 
                     src={appHubScreen} 
                     alt="Peak Height Hub - Browse exercises by skill level and body area"
-                    className="rounded-[2rem] md:rounded-[2.5rem] shadow-2xl w-full max-w-[220px] md:max-w-[280px] border-4 md:border-8 border-foreground/10"
+                    className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
                   />
                 </div>
-                <div className="transform scale-75 md:scale-100 rotate-[12deg] md:rotate-[8deg] hover:rotate-[4deg] transition-transform duration-300 hover:scale-105 -ml-8 md:ml-0">
+                <div className="transform md:rotate-[8deg] hover:rotate-[4deg] transition-transform duration-300 hover:scale-105">
                   <img 
                     src={appProgressScreen} 
                     alt="Peak Height Progress - Monitor growth factors and height journey"
-                    className="rounded-[2rem] md:rounded-[2.5rem] shadow-2xl w-full max-w-[200px] md:max-w-[280px] border-4 md:border-8 border-foreground/10"
+                    className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
                   />
                 </div>
               </div>
