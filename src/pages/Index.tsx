@@ -36,22 +36,22 @@ const Index = () => {
             </div>
 
             <div className="max-w-6xl mx-auto">
-              <div className="grid md:grid-cols-3 gap-8 items-center justify-items-center">
-                <div className="transform md:rotate-[-8deg] hover:rotate-[-4deg] transition-transform duration-300 hover:scale-105">
+              <div className="grid grid-cols-3 gap-4 md:gap-8 items-center justify-items-center">
+                <div className="transform md:rotate-[-8deg] md:hover:rotate-[-4deg] transition-transform duration-300 md:hover:scale-105">
                   <img 
                     src={appTodayScreen} 
                     alt="Peak Height Today Screen - Track daily streaks and growth tasks"
                     className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
                   />
                 </div>
-                <div className="transform md:scale-110 hover:scale-115 transition-transform duration-300 z-10">
+                <div className="transform md:scale-110 md:hover:scale-115 transition-transform duration-300 z-10">
                   <img 
                     src={appHubScreen} 
                     alt="Peak Height Hub - Browse exercises by skill level and body area"
                     className="rounded-[2.5rem] shadow-2xl w-full max-w-[280px] border-8 border-foreground/10"
                   />
                 </div>
-                <div className="transform md:rotate-[8deg] hover:rotate-[4deg] transition-transform duration-300 hover:scale-105">
+                <div className="transform md:rotate-[8deg] md:hover:rotate-[4deg] transition-transform duration-300 md:hover:scale-105">
                   <img 
                     src={appProgressScreen} 
                     alt="Peak Height Progress - Monitor growth factors and height journey"
