@@ -13,7 +13,7 @@ const Index = () => {
       
       <main className="flex-1">
         {/* Hero Section with App Screenshots */}
-        <section className="relative py-20 md:py-32 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
+        <section className="relative py-12 md:py-16 overflow-hidden border-b border-border bg-gradient-to-b from-background via-primary/5 to-background">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent blur-3xl" />
           <div className="container px-4 md:px-6 relative z-10">
             <div className="mx-auto max-w-4xl text-center animate-fade-in mb-16">
