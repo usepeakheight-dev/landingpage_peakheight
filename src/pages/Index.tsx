@@ -38,7 +38,7 @@ const Index = () => {
                     </a>
                   </Button>
                   <p className="text-sm text-muted-foreground/80 text-center max-w-xs md:max-w-[200px]">
-                    📱 Coming from TikTok? Hold the button ↑ and select "Open in Browser"
+                    📱 Coming from TikTok? Hold the "Download" button and select "Open in Browser"
                   </p>
                 </div>
                 
