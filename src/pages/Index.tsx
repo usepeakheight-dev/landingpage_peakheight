@@ -12,6 +12,7 @@ import sevaProfile from "@/assets/seva-profile.png";
 import userMark from "@/assets/user-mark.jpg";
 import userMo from "@/assets/user-mo.png";
 import userSeva from "@/assets/user-seva.png";
+import userAlly from "@/assets/user-ally.png";
 
 const Index = () => {
   return (
@@ -45,7 +46,7 @@ const Index = () => {
                 <div className="flex flex-col items-center gap-3">
                   <div className="flex items-center -space-x-3">
                     <Avatar className="w-12 h-12 border-4 border-background">
-                      <AvatarImage src={sevaProfile} alt="User testimonial" />
+                      <AvatarImage src={userAlly} alt="User testimonial" />
                     </Avatar>
                     <Avatar className="w-12 h-12 border-4 border-background">
                       <AvatarImage src={userMark} alt="User testimonial" />
