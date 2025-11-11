@@ -190,9 +190,9 @@ const Index = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  "I've gained 2 inches in 4 months! The daily routines are easy to follow and the app keeps me motivated with streaks."
+                  "The daily reminders are a game changer. Makes it so much easier to stay consistent with exercise"
                 </p>
-                <p className="font-semibold">— Mark T.</p>
+                <p className="font-semibold">— Mark M.</p>
               </div>
 
               <div className="p-8 rounded-2xl border border-border bg-card">
@@ -202,9 +202,9 @@ const Index = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  "The nutrition tracker and meal plans are game-changers. My posture improved and I feel taller already!"
+                  "Didn't think an app could motivate me like this."
                 </p>
-                <p className="font-semibold">— Mo S.</p>
+                <p className="font-semibold">— Mo D.</p>
               </div>
 
               <div className="p-8 rounded-2xl border border-border bg-card">
@@ -214,9 +214,9 @@ const Index = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  "Science-backed and actually works. The community support kept me going when I wanted to quit."
+                  "Really impressed with how smooth the app is."
                 </p>
-                <p className="font-semibold">— Seva K.</p>
+                <p className="font-semibold">— Seva J.</p>
               </div>
             </div>
 
