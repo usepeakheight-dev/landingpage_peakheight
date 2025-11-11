@@ -1,10 +1,14 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Zap, Target, Camera, Users, CheckCircle2, Smartphone, TrendingUp, Award, Star } from "lucide-react";
 import appTodayScreen from "@/assets/app-today-screen.png";
 import appHubScreen from "@/assets/app-hub-screen.png";
 import appProgressScreen from "@/assets/app-progress-screen.png";
+import markProfile from "@/assets/mark-profile.jpg";
+import moProfile from "@/assets/mo-profile.png";
+import sevaProfile from "@/assets/seva-profile.png";
 
 const Index = () => {
   return (
@@ -184,6 +188,9 @@ const Index = () => {
             
             <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
               <div className="p-8 rounded-2xl border border-border bg-card">
+                <Avatar className="w-16 h-16 mb-4">
+                  <AvatarImage src={markProfile} alt="Mark M." />
+                </Avatar>
                 <div className="flex items-center gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <Star key={star} className="w-4 h-4 fill-foreground" />
@@ -196,6 +203,9 @@ const Index = () => {
               </div>
 
               <div className="p-8 rounded-2xl border border-border bg-card">
+                <Avatar className="w-16 h-16 mb-4">
+                  <AvatarImage src={moProfile} alt="Mo D." />
+                </Avatar>
                 <div className="flex items-center gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <Star key={star} className="w-4 h-4 fill-foreground" />
@@ -208,6 +218,9 @@ const Index = () => {
               </div>
 
               <div className="p-8 rounded-2xl border border-border bg-card">
+                <Avatar className="w-16 h-16 mb-4">
+                  <AvatarImage src={sevaProfile} alt="Seva J." />
+                </Avatar>
                 <div className="flex items-center gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <Star key={star} className="w-4 h-4 fill-foreground" />
