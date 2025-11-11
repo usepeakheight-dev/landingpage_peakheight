@@ -9,6 +9,9 @@ import appProgressScreen from "@/assets/app-progress-screen.png";
 import markProfile from "@/assets/mark-profile.jpg";
 import moProfile from "@/assets/mo-profile.png";
 import sevaProfile from "@/assets/seva-profile.png";
+import userMark from "@/assets/user-mark.jpg";
+import userMo from "@/assets/user-mo.png";
+import userSeva from "@/assets/user-seva.png";
 
 const Index = () => {
   return (
@@ -27,15 +30,39 @@ const Index = () => {
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
                 Height isn't just inherited, it's earned
               </p>
-              <div className="flex flex-col items-center gap-3 mb-8">
-                <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
-                  <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
-                    Download Peak Height
-                  </a>
-                </Button>
-                <p className="text-sm text-muted-foreground/80 text-center max-w-xs">
-                  📱 Coming from TikTok? Hold the button ↑ and select "Open in Browser"
-                </p>
+              <div className="flex flex-col items-center gap-6 mb-8">
+                <div className="flex flex-col md:flex-row items-center gap-4">
+                  <Button asChild size="lg" className="text-lg h-14 px-8 bg-foreground text-background hover:bg-foreground/90 shadow-lg">
+                    <a href="https://apps.apple.com/us/app/peak-height/id6752793377" target="_blank" rel="noopener noreferrer">
+                      Download Peak Height
+                    </a>
+                  </Button>
+                  <p className="text-sm text-muted-foreground/80 text-center max-w-xs md:max-w-[200px]">
+                    📱 Coming from TikTok? Hold the button ↑ and select "Open in Browser"
+                  </p>
+                </div>
+                
+                <div className="flex flex-col items-center gap-3">
+                  <div className="flex items-center -space-x-3">
+                    <Avatar className="w-12 h-12 border-4 border-background">
+                      <AvatarImage src={sevaProfile} alt="User testimonial" />
+                    </Avatar>
+                    <Avatar className="w-12 h-12 border-4 border-background">
+                      <AvatarImage src={userMark} alt="User testimonial" />
+                    </Avatar>
+                    <Avatar className="w-12 h-12 border-4 border-background">
+                      <AvatarImage src={userSeva} alt="User testimonial" />
+                    </Avatar>
+                    <Avatar className="w-12 h-12 border-4 border-background">
+                      <AvatarImage src={userMo} alt="User testimonial" />
+                    </Avatar>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <Star key={star} className="w-5 h-5 fill-foreground" />
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
 
